@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JXCityPicker_Example' do
+  pod 'JXCityPicker', :path => '../'
+
+  target 'JXCityPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
