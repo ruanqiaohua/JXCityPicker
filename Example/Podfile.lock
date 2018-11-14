@@ -1,0 +1,16 @@
+PODS:
+  - JXCityPicker (0.1.0)
+
+DEPENDENCIES:
+  - JXCityPicker (from `../`)
+
+EXTERNAL SOURCES:
+  JXCityPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXCityPicker: b793cecd22ae524cd232ac5b4e02bafe5b3bf93b
+
+PODFILE CHECKSUM: 9a8e28465fe55b5092986c2bcd05668e1f43e4e1
+
+COCOAPODS: 1.6.0.beta.2

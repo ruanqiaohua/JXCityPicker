@@ -1,0 +1,22 @@
+{
+  "name": "JXCityPicker",
+  "version": "0.1.0",
+  "summary": "A short description of JXCityPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ruanqiaohua@hotmail.com/JXCityPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ruanqiaohua@hotmail.com": "ruanqiaohua@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ruanqiaohua@hotmail.com/JXCityPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JXCityPicker/Classes/**/*"
+}

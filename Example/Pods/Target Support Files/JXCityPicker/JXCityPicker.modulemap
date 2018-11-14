@@ -1,0 +1,6 @@
+framework module JXCityPicker {
+  umbrella header "JXCityPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
