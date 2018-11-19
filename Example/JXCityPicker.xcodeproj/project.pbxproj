@@ -24,6 +24,8 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C79901CA9C2080DEB9F6299 /* Pods_JXCityPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039D8D44E60C04DE8C75150E /* Pods_JXCityPicker_Tests.framework */; };
 		B19D3B71DA684F4F7A133FA4 /* Pods_JXCityPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8AF9A120BAFE5EC74E7BA /* Pods_JXCityPicker_Example.framework */; };
+		F199D22721A2BF4B00A2E740 /* AreaPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F199D22521A2BF4A00A2E740 /* AreaPickerViewController.m */; };
+		F199D22921A2BF5D00A2E740 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = F199D22821A2BF5D00A2E740 /* area.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		CFCD9A5D66D4EC443DF8F233 /* Pods-JXCityPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXCityPicker_Example.release.xcconfig"; path = "Target Support Files/Pods-JXCityPicker_Example/Pods-JXCityPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1D52AF0AEC5935BA12DCE5C /* Pods-JXCityPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXCityPicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-JXCityPicker_Example/Pods-JXCityPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9472CE980C2881F5A004820 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F199D22521A2BF4A00A2E740 /* AreaPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AreaPickerViewController.m; path = ../JXCityPicker/Classes/AreaPickerViewController.m; sourceTree = "<group>"; };
+		F199D22621A2BF4B00A2E740 /* AreaPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AreaPickerViewController.h; path = ../JXCityPicker/Classes/AreaPickerViewController.h; sourceTree = "<group>"; };
+		F199D22821A2BF5D00A2E740 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = area.plist; path = ../JXCityPicker/Assets/area.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +183,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				F199D22821A2BF5D00A2E740 /* area.plist */,
+				F199D22621A2BF4B00A2E740 /* AreaPickerViewController.h */,
+				F199D22521A2BF4A00A2E740 /* AreaPickerViewController.m */,
 				113DAE508B1066BF5A458086 /* JXCityPicker.podspec */,
 				E9472CE980C2881F5A004820 /* README.md */,
 				B0862EB87E1A2B2B9DB63A65 /* LICENSE */,
@@ -277,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				F199D22921A2BF5D00A2E740 /* area.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -370,6 +379,7 @@
 				6003F59E195388D20070C39A /* JXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F199D22721A2BF4B00A2E740 /* AreaPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

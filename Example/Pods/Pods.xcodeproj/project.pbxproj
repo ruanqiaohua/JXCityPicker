@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1011D4EEB8E1AE40B466CE49CFDDA768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		145FF054D12DF07F762CC74B93C8ED63 /* Pods-JXCityPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A2C9184C127F2BD44B491FD19CBFB4 /* Pods-JXCityPicker_Example-dummy.m */; };
-		1F886C61649662531B22DBEF044A22E4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA9704725A9AB8F5024124C90A13B85 /* ReplaceMe.m */; };
 		2ABB548F07EDF12A36FB83C5AD757E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		40EF6A2D995EAC21300B15E4D1DC5903 /* JXCityPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7381FEE5D37852B17E06DE199887A60 /* JXCityPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B6ABED8FDD8416037C49B9D161BD312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -39,32 +38,31 @@
 /* Begin PBXFileReference section */
 		011567E631F9F29A0CD31B2A30F2D935 /* Pods-JXCityPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXCityPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0A9F0B3744D49E31F26503A303B57802 /* Pods-JXCityPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXCityPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1C82F1DCB6851CA64BBDEA932651D43E /* Pods_JXCityPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXCityPicker_Tests.framework; path = "Pods-JXCityPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C82F1DCB6851CA64BBDEA932651D43E /* Pods_JXCityPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXCityPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC1F12F5D93855882C74DBAA39AB968 /* Pods-JXCityPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXCityPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		2197A0E53800041EE9927A2FA8F559A0 /* Pods-JXCityPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXCityPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		23B77B9AB4C31CC3049A211E4A0368CC /* JXCityPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXCityPicker-prefix.pch"; sourceTree = "<group>"; };
-		2A48DCD17F2D712FDA2D6A1CCED73544 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A48DCD17F2D712FDA2D6A1CCED73544 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2B5D9FA6DBB6784D2F015F4474F79CC0 /* Pods-JXCityPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXCityPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D356CDD73835C4E67D2652852362DED /* Pods_JXCityPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXCityPicker_Example.framework; path = "Pods-JXCityPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D356CDD73835C4E67D2652852362DED /* Pods_JXCityPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXCityPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3094BC19BC770E205E2BDA01E41386E7 /* Pods-JXCityPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXCityPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		31A9EDB0A00833FC466077894D6AC253 /* Pods-JXCityPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXCityPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DF4DB1FA142687F895BF3D1787EDA5C /* Pods-JXCityPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXCityPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3E92CA908D0FCDAE835BB9DE1FA428E0 /* JXCityPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXCityPicker.xcconfig; sourceTree = "<group>"; };
 		535268EA1DE4AE2FC69AECCE7256F4C2 /* JXCityPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXCityPicker.modulemap; sourceTree = "<group>"; };
 		606B3D36AC6D495B541E409E60CB859B /* Pods-JXCityPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXCityPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		62BAE1125482F07566328980BE67DF72 /* JXCityPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXCityPicker.framework; path = JXCityPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BAE1125482F07566328980BE67DF72 /* JXCityPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXCityPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8870B1F72DED48762223073FD8BF02 /* Pods-JXCityPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXCityPicker_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D02302F78E54762E1582963BA834A6C /* JXCityPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXCityPicker-Info.plist"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5E7A647E3FF0409CBB4820693FC9432 /* Pods-JXCityPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXCityPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		B7381FEE5D37852B17E06DE199887A60 /* JXCityPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXCityPicker-umbrella.h"; sourceTree = "<group>"; };
-		B8680693DB5D1D8FE26E54BF31872BB1 /* JXCityPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXCityPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8680693DB5D1D8FE26E54BF31872BB1 /* JXCityPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JXCityPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9D8196242D562DEBB3E0AC5F6D5C198 /* Pods-JXCityPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXCityPicker_Example-Info.plist"; sourceTree = "<group>"; };
 		BD460CA39D695B5C92A63FA8A2DE3C35 /* Pods-JXCityPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXCityPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BFC5DAA43DDC1382A602CE8A7AC8E524 /* Pods-JXCityPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXCityPicker_Example.modulemap"; sourceTree = "<group>"; };
-		D49C47E650822F47403DCE54CAF9B70D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D49C47E650822F47403DCE54CAF9B70D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DBA9704725A9AB8F5024124C90A13B85 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JXCityPicker/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E4043B8A87BEA081F04BEB6AD6E6EB1E /* Pods-JXCityPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXCityPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E4A2C9184C127F2BD44B491FD19CBFB4 /* Pods-JXCityPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXCityPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		EC69825F3BE4D61AF5CF500F2CF3D2CF /* JXCityPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXCityPicker-dummy.m"; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 		8B6282D643FC9C3DC351E667A7985961 /* JXCityPicker */ = {
 			isa = PBXGroup;
 			children = (
-				DBA9704725A9AB8F5024124C90A13B85 /* ReplaceMe.m */,
 				7A9ACFBADFAB512E320CC52B265CF80D /* Pod */,
 				B6320BC28988AD3CC9701EE8C1838F47 /* Support Files */,
 			);
@@ -381,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99EE931D902851FE6841FBC69E683DB /* JXCityPicker-dummy.m in Sources */,
-				1F886C61649662531B22DBEF044A22E4 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,8 +644,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -7,6 +7,7 @@
 //
 
 #import "JXViewController.h"
+#import "AreaPickerViewController.h"
 
 @interface JXViewController ()
 
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    AreaPickerViewController *areaPicker = [AreaPickerViewController showAreaPicker:13 city:0 area:0];
+    [areaPicker sureButtonPressedCallBack:^(AreaPickerViewController *areaPicker, AreaPickerModel *model) {
+        NSString *message = [NSString stringWithFormat:@"%@ %@ %@",model.province,model.city,model.area];
+        NSLog(@"%@",message);
+        [areaPicker dismiss];
+    }];
 }
 
 @end
